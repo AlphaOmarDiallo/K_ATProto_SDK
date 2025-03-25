@@ -1,15 +1,37 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Kotlin Metadata (this ensures that Kotlin's internal files do not get tracked)
+.kotlin/metadata/
+.kotlin/sessions/
+.kotlin/klib/
+
+# Android Studio and IntelliJ IDEA
 *.iml
-.gradle
-.idea
+.idea/
+.idea_modules/
+
+# macOS specific
 .DS_Store
-build
-captures
-.externalNativeBuild
-.cxx
+
+# Local config files (user-specific)
 local.properties
-xcuserdata
+xcuserdata/
+
+# Gradle Wrapper
 /gradle/wrapper/gradle-wrapper.jar
-/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlin-kotlin-stdlib-2.0.0-commonMain-2bbUHA.klib
-/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlin-kotlin-test-2.0.0-annotationsCommonMain-24eTFQ.klib
-/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlin-kotlin-test-2.0.0-assertionsCommonMain-24eTFQ.klib
-/.kotlin/sessions/kotlin-compiler-16477902435895583596.salive
+/gradlew
+/gradlew.bat
+
+# Native build output
+.externalNativeBuild/
+.cxx/
+
+# Captured screenshots for Android tests
+captures/
+
+# Kotlin transformed metadata libraries and compiler session files
+/.kotlin/metadata/kotlinTransformedMetadataLibraries/
+/.kotlin/sessions/kotlin-compiler-*
