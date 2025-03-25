@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "katproto"
+rootProject.name = "kbluesdk"
 include(":shared")

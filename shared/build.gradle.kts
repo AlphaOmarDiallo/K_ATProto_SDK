@@ -38,7 +38,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.alphaomardiallo.katproto"
+    namespace = "com.alphaomardiallo.kbluesdk"
     compileSdk = 35
     defaultConfig {
         minSdk = 26
